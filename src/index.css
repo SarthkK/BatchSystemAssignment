@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'ClashBold';
+  src: url("./assets/fonts/clash-display/ClashDisplayBold.otf") format('opentype');
+}
+@font-face {
+  font-family: 'ClashSemibold';
+  src: url("./assets/fonts/clash-display/ClashDisplaySemibold.otf") format('opentype');
+}
+@font-face {
+  font-family: 'ClashMedium';
+  src: url("./assets/fonts/clash-display/ClashDisplayMedium.otf") format('opentype');
+}
+@font-face {
+  font-family: 'Clash';
+  src: url("./assets/fonts/clash-display/ClashDisplayRegular.otf") format('opentype');
+}
+
+ *{
+  font-family: 'Clash';
+ }
+
+.radial {
+  background-image: radial-gradient(rgba(22,22,22,0) 0%, #696969 52%, rgba(22,22,22,0) 100%);
+  height: 1px;
+  width: 100%;
+}
